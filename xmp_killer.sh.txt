@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Get all .xmp files in the current directory and all subdirectories
+find . -name "*.xmp" -type f -exec rm -rf {} \;
